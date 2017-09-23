@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <h3>Bienvenido a <%= title %></h3>
+    <p>Los anuncios disponibles son los siguientes:</p>
+    <ul>
+    <% anuncios.forEach(function(anuncio)  { %>
+          
+            <li><%= anuncio.nombre+ '-> Venta:' + anuncio.venta + ' Precio:'+ 
+            anuncio.precio + ' euros Tags:' + anuncio.tags  %></li>
+          <img src="<%= anuncio.foto %>" alt="<%= anuncio.nombre %>" />  </div>
+            <% }) %>
+    </ul>
+  </body>
+
+  
+
+</html>

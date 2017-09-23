@@ -1,0 +1,31 @@
+[                        
+     {
+        "nombre":   "Bicicleta",        
+        "venta":   true,
+        "precio":   230.15,
+        "foto":   "/images/bici.jpg",
+        "tags":   [   "lifestyle",   "motor"]  
+    },
+    {
+        "nombre":   "iPhone 3GS",
+        "venta":   false,
+        "precio":   50.00,
+        "foto":   "/images/iphone.jpeg",
+        "tags":   [   "lifestyle",   "mobile", "work"]
+} ,
+{
+    "nombre":   "Moto",
+    "venta":   false,
+    "precio":   40.00,
+    "foto":   "/images/moto.jpg",
+    "tags":   [   "lifestyle",   "motor"]
+} ,
+{
+    "nombre":   "Raspberry Pi",
+    "venta":   false,
+    "precio":   9.00,
+    "foto":   "/images/raspberry.jpeg",
+    "tags":   [   "lifestyle",   "work", "mobile"]
+} 
+
+]   
